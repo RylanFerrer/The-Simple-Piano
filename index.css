@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #ff487e;
+  margin:0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #ff9776;
+  margin-bottom: 300px;
+
+}
+
+
+
+
+
+/* Piano */
+.piano{
+
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 4px;
+
+
+}
+
+
+.white-key {
+  background-color: white;
+  width: 80px;
+  height: 240px;
+  border: 3px solid black;
+  margin-left: -4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.black-key.active {
+  background-color: red;
+  border-color: red;
+
+}
+.white-key.active{
+  background-color: red;
+  border-color: red;
+}
+
+.button-text {
+  display: none;
+}
+
+
+
+.black-key {
+  background-color: black;
+  width: 48px;
+  height: 160px;
+  border: 3px solid black;
+  position: absolute;
+  cursor: pointer;
+  outline: none;
+
+
+}
+
+/* black keys */
+.Db4-key {
+  left: 50px;
+}
+
+.Eb4-key{
+  left:130px;
+}
+
+.Gb4-key{
+  left: 290px;
+}
+
+.Ab4-key {
+  left: 370px;
+}
+
+.Bb4-key {
+  left: 450px;
+}
+
+.Db5-key {
+      left: 612px;
+}
+
+.Eb5-key {
+
+  left: 692px;
+
+}

@@ -53,7 +53,7 @@ document.addEventListener("keydown" ,function(event){
       break;
 
       case "w":
-      var D4 = new Audio('sounds/d4.mp3');
+      var D4 = new Audio('sounds/D4.mp3');
       D4.play();
 
       var D4key = document.querySelector(".D4-key");
@@ -62,6 +62,7 @@ document.addEventListener("keydown" ,function(event){
       setTimeout(function(){
         D4key.classList.remove("active");
       }, 100);
+
 
       break;
 

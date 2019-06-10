@@ -25,7 +25,7 @@ document.addEventListener("keydown" ,function(event){
     switch (key) {
 
       case "q":
-      var C4 = new Audio('sounds/Db4.mp3');
+      var C4 = new Audio('sounds/C4.mp3');
       C4.play();
 
       var C4key = document.querySelector(".C4-key");
